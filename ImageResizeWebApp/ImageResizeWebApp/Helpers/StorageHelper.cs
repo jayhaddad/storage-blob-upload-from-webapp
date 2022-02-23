@@ -32,7 +32,7 @@ namespace ImageResizeWebApp.Helpers
             // Create a URI to the blob
             Uri blobUri = new Uri("https://" +
                                   _storageConfig.AccountName +
-                                  ".blob.core.windows.net/" +
+                                  ".blob.core.usgovcloudapi.net/" +
                                   _storageConfig.ImageContainer +
                                   "/" + fileName);
 
